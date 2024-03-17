@@ -1,14 +1,25 @@
+import { Outlet } from 'react-router-dom';
 import './index.scss';
-import Sidebar from '../Sidebar'; // Import the missing Sidebar component
+import Sidebar from '../Sidebar';
+// Import the missing Sidebar component
+
 
 // boilerplate
 const Layout = () => {
     return (
         <div className="App">
-            <Sidebar /> {/* Add the missing closing tag for the Sidebar component */}
-            {/* Add the missing closing tag for the JSX fragment */}
+            <Sidebar /> 
+            <div className='page'>
+                <span className='tags top-tags'>&lt;body&gt;</span>
+                <Outlet/>
+                <span className='tags bottom-tags'>
+                    &lt;/body</span>
+                    <br/>
+                    <span className='bottom-tag-html'>&lt;/html&gt;</span>
+              
             </div>
-        //continue here VICTORR!
+            </div>
+     
     );
 };
 
