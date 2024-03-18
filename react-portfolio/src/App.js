@@ -16,3 +16,5 @@ function App() {
 }
 
 export default App;
+// finished around the 33.08mark
+//do you want to continue SVG?

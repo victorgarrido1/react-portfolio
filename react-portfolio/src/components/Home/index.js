@@ -7,7 +7,7 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>Hi,  I'm,
-                <img src={LogoTitle} alt="developer" style={{ marginBottom: '-51px', marginLeft: '-40px', width: '40px' }} />
+                <img src={LogoTitle} alt="developer" style={{ marginBottom: '-56px', marginLeft: '-40px', width: '40px' }} />
                 ictor Garrido Future Web Developer
                 </h1> 
                 <h2> Full Stack Developer</h2>
@@ -19,3 +19,5 @@ const Home = () => {
 }
 
 export default Home
+
+//Contine with ABOUT PAGE
