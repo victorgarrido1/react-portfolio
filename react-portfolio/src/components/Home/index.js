@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/images/logo-s.png'; // Add missing import statement for React
+import LogoTitle from '../../assets/images/logo-v2.png'; // Add missing import statement for React
 import './index.scss'
 
 const Home = () => {
     return (
         <div className="container home-page">
             <div className="text-zone">
-                <h1>Hi, <br/> I'm
-                <img src={LogoTitle} alt="developer" /> 
-                Victor <br/> Future Web Developer
+                <h1>Hi,  I'm,
+                <img src={LogoTitle} alt="developer" style={{ marginBottom: '-51px', marginLeft: '-40px', width: '40px' }} />
+                ictor Garrido Future Web Developer
                 </h1> 
                 <h2> Full Stack Developer</h2>
-                <Link to="/contact" className='flat-button'>Contact ME</Link>
+                <Link to="/contact" className='flat-button'>Contact Me</Link>
 
             </div>
         </div> 
