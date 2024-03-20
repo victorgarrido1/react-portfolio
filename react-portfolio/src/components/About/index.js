@@ -1,9 +1,19 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import {
+  faAngular,
+  faCss3,
+  faGitAlt,
+  faHtml5,
+  faJsSquare,
+  faReact,
+} from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
   return (
     <div className="container about-page">
       <div className="text-zone">
+        <span class="tags bottom-tags">&lt;/h1</span>
         <h1>About Me</h1>
         <p>
           I am a recent graduate of the ASU Coding BootCamp class. With this
@@ -32,6 +42,28 @@ const About = () => {
           "To be able to grow, you must be able to challenge yourself to new
           heights"
         </q>
+        <div className="stage-cube-cont">
+          <div className="cubespinner">
+            <div className="face1">
+              <FontAwesomeIcon icon={{ faAngular }} />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={{ faHtml5 }} />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={{ faCss3 }} />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={{ faReact }} />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={{ faJsSquare }} />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={{ faGitAlt }} />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
