@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import './index.scss';
 import Sidebar from '../Sidebar';
-// Import the missing Sidebar component
+// Import the missing Sidebar component //done 1/2
 
 
 // boilerplate

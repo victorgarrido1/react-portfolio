@@ -20,4 +20,3 @@ const Home = () => {
 
 export default Home
 
-//Contine with ABOUT PAGE
