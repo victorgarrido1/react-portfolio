@@ -70,9 +70,70 @@ h1 {
 }
 
 
-
-.about-page {
-  .text-zone {
-    position: absolute;
-  }
+.face1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
+
+.face2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+// .stage-cube-cont {
+//     width: 50%;
+//     height: 100%;
+//     top: 0;
+//     padding-top: 18%;
+//     margin-left: 0;
+//     position: absolute;
+//     right: 0;
+//     overflow: hidden;
+// }
+
+/* Explanation of styles for the .cubespinner class */
+.cubespinner {
+    /* Set the animation name to 'spincube' */
+    animation-name: spincube;
+    /* Set the animation timing function to ease-in-out */
+    animation-timing-function: ease-in-out;
+    /* Set the animation iteration count to infinite */
+    animation-iteration-count: infinite;
+    /* Set the animation duration to 12 seconds */
+    animation-duration: 12s;
+    /* Specify that child elements should preserve their 3D transformations */
+    transform-style: preserve-3d;
+    /* Specify the origin of the transformation */
+    transform-origin: 100px 100px 0;
+    /* Set the left margin using the calc() function */
+    /* The left margin is calculated as 50% of the viewport width minus 100px */
+    margin-left: calc(50% - 100px);
+
+    div {
+        position: absolute;
+        width:  200px;
+        height: 200px;
+        border: 1px solid #ccc;
+        background:  rgba(255, 255, 255, 0.04);
+        text-align: center;
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 20px 0px lightyellow;
+    }
+}
+
+
+
+
+
+
+// .about-page {
+//   .text-zone {
+//     position: absolute;
+//   }
+// }
