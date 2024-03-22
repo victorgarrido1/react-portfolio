@@ -63,23 +63,15 @@ h1 {
   border-left: 2px solid black;
 }
 
-.row {
-  display: table;
-  width: 100%; /*Optional*/
-  table-layout: fixed; /*Optional*/
-  // border-spacing: 10px; /*Optional*/
-}
 
-.icon {
-  margin: 0 10px;
-}
+
 
 /* Explanation of styles for the .cubespinner class */
 .cubespinner {
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  flex-direction: row;
-  margin-right: -15px;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: auto;
 }
