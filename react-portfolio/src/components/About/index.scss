@@ -18,11 +18,13 @@ p {
   margin-left: 95px;
   border-left: 2px solid black; /* Added border on the left side */
   font-style: 13px;
+  font-size: 15px;
   color: #fff;
   font-family: sans-serif;
   font-weight: 300;
   min-width: fit-content;
   animation: pulse 1s;
+
 
   &:nth-of-type(1) {
     animation-delay: 1.1s;
@@ -39,9 +41,9 @@ q {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60vm;
-  margin-left: 50px;
-  font-style: 10px;
+  width: 60vw; /* Changed from vm to vw (viewport width) */
+  margin-left: 85px;
+  font-size: 20px; /* Changed from font-style to font-size */
   color: #fff;
   font-family: sans-serif;
   font-weight: 300;
