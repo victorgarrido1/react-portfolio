@@ -77,28 +77,19 @@
       }
     }
 
-    a.about-link {
+    .abouticon {
       &:after {
         content: 'ABOUT';
       }
     }
-
-    a.contact-link {
-      &:after {
-        content: 'CONTACT';
-      }
+    .contacticon::after {
+      content: 'CONTACT';
     }
 
-    a.portfolio-link {
-      &:after {
-        content: 'PORTFOLIO';
-      }
-    }
-
-    a.active {
-      svg {
-        color: #ffd700;
-      }
+    
+    .portfolioicon::after {
+      content: 'PORTFOLIO';
+      font-size: 7.8px; /* You can adjust the size as needed */
     }
   }
 
