@@ -1,25 +1,10 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2196f3;
-    // padding: 10px;
-    width: -200px;
-    margin-left: 90px; /* Adjust the value as needed */
-    margin-top: 80px;
-  }
-
-.project-box {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 5px;
-  font-size: 30px;
-  text-align: center;
-}
-
-.portfolioImg {
-  width: 20%;
-}
-
-.projectGrid {
-  width: 10%;
+.projectIcons {
+  width: 30% ;
+  border: 1px solid black;
+  height: 300px;
+  margin-top: 180px;
+  flex-basis: 50%;
+  float: left;
+  margin-left: 32px;
+  border-radius: 10px;
 }
