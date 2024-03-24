@@ -1,6 +1,6 @@
-import React, { useRef } from 'react'; // Add missing import statement for
-import "./index.scss";
-
+import React from 'react';
+import './index.scss'; // Import your SCSS file
+import './card.jsx'
 
 
 
@@ -8,11 +8,17 @@ import "./index.scss";
 
 const Portfolio = () => {
   return (
-    <div className='images-container'>
-        <h1> hello</h1>
+    <div className="grid-container-template">
+      <h1 className='mainText'>Hello</h1>
+      {/* You can add more content here */}
+      <div className='flex-container'></div>
+
+        <div className='flex-container'>1</div>
+
 
     </div>
   );
-}
+};
 
-export default Portfolio;
+
+export default Portfolio

@@ -7,6 +7,7 @@ import React from 'react'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 
+
 function App() {
   return (
     <Router>
@@ -23,5 +24,4 @@ function App() {
 }
 
 export default App
-// finished around the 33.08mark
-//do you want to continue SVG?
+
