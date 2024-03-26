@@ -27,27 +27,22 @@ const Portfolio = () => {
     {
       thumbnail: projectThumbnail2,
       title: 'Project 2',
-      description: 'Description of project 2',
     },
     {
       thumbnail: projectThumbnail3,
       title: 'Project 3',
-      description: 'Description of project 3',
     },
     {
       thumbnail: projectThumbnail4,
       title: 'Project 4',
-      description: 'Description of project 4',
     },
     {
       thumbnail: projectThumbnail5,
       title: 'Project 5',
-      description: 'Description of project 5',
     },
     {
       thumbnail: projectThumbnail6,
       title: 'Project 6',
-      description: 'Description of project 6',
     },
   ]
   return (
