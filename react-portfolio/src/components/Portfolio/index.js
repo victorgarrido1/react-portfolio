@@ -6,23 +6,17 @@ import projectThumbnail3 from '../../assets/images/portfolio3.png'
 import projectThumbnail4 from '../../assets/images/project4.png'
 import projectThumbnail5 from '../../assets/images/project5.png'
 import projectThumbnail6 from '../../assets/images/project6.png'
-
 const Portfolio = () => {
   // Define the Card component inside the Portfolio component
   const Card = ({ thumbnail, title, description }) => (
-    <div className="projectIcons">
+    <div className="portfolio-card">
       <div className="column">
-        <img
-          src={thumbnail}
-          alt="Description"
-          style={{ maxWidth: '350%', maxHeight: '200px' }}
-        />
+        <img src={thumbnail} alt="Description" />
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
     </div>
   )
-
   // Array of project details
   const projects = [
     {
@@ -56,39 +50,14 @@ const Portfolio = () => {
       description: 'Description of project 6',
     },
   ]
-
   return (
-    <div
-      className="grid-container-template"
-      style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', gap: '20px' }}>
-    
+    <div className="">
       {/* Render the first 3 Card components */}
-      <div
-        className="flex-container"
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          justifyContent: 'space-between',
-        }}
-      >
+      <div className="portfolio-container">
         <h1 className="mainText">Hello</h1>
-        {projects.slice(0, 3).map((project, index) => (
+        {projects.map((project, index) => (
           <Card
             key={index}
-            thumbnail={project.thumbnail}
-            title={project.title}
-            description={project.description}
-          />
-        ))}
-      </div>
-      {/* Render the last 3 Card components */}
-      <div
-     
-      >
-        {/* Render the last 3 Card components */}
-        {projects.slice(3).map((project, index) => (
-          <Card
-            key={index + 3}
             thumbnail={project.thumbnail}
             title={project.title}
             description={project.description}
@@ -98,5 +67,4 @@ const Portfolio = () => {
     </div>
   )
 }
-
 export default Portfolio
