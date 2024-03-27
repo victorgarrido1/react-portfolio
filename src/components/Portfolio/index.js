@@ -22,7 +22,6 @@ const Portfolio = () => {
     {
       thumbnail: projectThumbnail1,
       title: 'Project 1',
-      description: 'Description of project 1',
     },
     {
       thumbnail: projectThumbnail2,
