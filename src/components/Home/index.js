@@ -17,7 +17,8 @@ const Home = () => {
               width: '40px',
             }}
           />
-          ictor Garrido Future Web Developer
+          ictor Garrido <b>
+          Future Web Developer</b>
         </h1>
         <h2> Full Stack Developer</h2>
         <Link to="/contact" className="flat-button">
