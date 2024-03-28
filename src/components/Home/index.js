@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/images/logo-v2.png' // Add missing import statement for React
 import './index.scss'
 
 const Home = () => {
@@ -8,17 +7,7 @@ const Home = () => {
       <div className="text-zone">
         <h1>
           Hi, I'm,
-          <img
-            src={LogoTitle}
-            alt="developer"
-            style={{
-              marginBottom: '49px',
-              marginLeft: '-30px',
-              width: '40px',
-            }}
-          />
-          ictor Garrido <b>
-          Future Web Developer</b>
+          Victor Garrido  <b>Future Web Developer</b>
         </h1>
         <h2> Full Stack Developer</h2>
         <Link to="/contact" className="flat-button">
