@@ -20,7 +20,7 @@ JavaScript
 * HTML 5
 * SCSS
 
-##NPM Packages:
+## NPM Packages:
 
 * React
 
